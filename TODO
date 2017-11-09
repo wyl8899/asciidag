@@ -1,2 +1,4 @@
 commit -> node
 tests
+remove pylint/noqa exceptions
+sequence.once() uniqueness
