@@ -34,7 +34,7 @@ def main():  # noqa: D103
             'pytest-runner',
         ],
         install_requires=[
-            'enum34',
+            'enum34; python_version < "3.4"',
         ],
         tests_require=[
             "flake8_docstrings",
